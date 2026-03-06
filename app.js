@@ -205,7 +205,6 @@ $(document).ready(function() {
 
     // --- 7. HANDLE ANSWERS & LOGGING ---
     function handleAnswer(selectedOption, questionObj) {
-        // NEW: They answered! Stop the timer immediately so it doesn't trigger on the next question.
         if (questionTimeout) {
             clearTimeout(questionTimeout);
             questionTimeout = null;
@@ -214,53 +213,79 @@ $(document).ready(function() {
         const endTime = performance.now();
         const reactionTimeMs = Math.round(endTime - questionStartTime);
 
-        // 1. Get the active rule's field name (e.g., 'correct_answer', 'left_hand_rule', etc.)
         const expectedField = currentBlockData.correct_answer_field;
-
-        // 2. Extract the original, baseline KRESZ answer
         const originalCorrect = questionObj['correct_answer'];
-
-        // 3. Extract what they SHOULD answer in this specific block
         const expectedAnswer = questionObj[expectedField] || originalCorrect;
         
         const isCorrect = (selectedOption === expectedAnswer);
 
-        // 4. DYNAMIC PERSEVERATION CHECK
-        // If the block is NOT using 'correct_answer', AND they answered incorrectly, 
-        // BUT their answer matches the old baseline rule -> They fell back to habit!
         let isPerseveration = false;
         if (expectedField !== 'correct_answer' && !isCorrect && selectedOption === originalCorrect) {
             isPerseveration = true;
         }
 
-        // 5. Save comprehensive Log Data
         experimentData.logs.push({
             block_name: currentBlockData.name,
             question_text: questionObj.question,
-            active_rule_name: expectedField,              // e.g., 'left_hand_rule'
+            active_rule_name: expectedField,
             user_answer: selectedOption,
-            expected_answer: expectedAnswer,              // What they should have clicked
-            original_baseline_answer: originalCorrect,    // The old habit
+            expected_answer: expectedAnswer,
+            original_baseline_answer: originalCorrect,
             is_correct: isCorrect,
-            is_perseveration_error: isPerseveration,      // TRUE if they used the old KRESZ rule
+            is_perseveration_error: isPerseveration,
             reaction_time_ms: reactionTimeMs,
             timestamp: new Date().toISOString()
         });
 
-        // NEW: Handle feedback for timeout
+        //Modal response
+        let showModal = false;
+        const $wrapper = $('#modal-content-wrapper');
+        const $btn = $('#modal-next-btn');
+
+        // Reset classes
+        $wrapper.removeClass('alert-success alert-danger alert-warning');
+        $btn.removeClass('btn-success btn-danger btn-warning').text('Tovább'); 
+
         if (selectedOption === "") {
-            alert("Lejárt az idő! Lépés a következő kérdésre.");
+            showModal = true;
+            $wrapper.addClass('alert-warning');
+            $btn.addClass('btn-warning');
+            $('#modal-icon').text('⏳');
+            $('#modal-title').text('Lejárt az idő!');
+            $('#modal-text').text('Sajnos nem érkezett válasz a megadott időn belül.');
         } else if (currentBlockData.has_feedback) {
+            showModal = true;
             if (isCorrect) {
-                alert("Helyes válasz!");
+                $wrapper.addClass('alert-success');
+                $btn.addClass('btn-success');
+                $('#modal-icon').text('✔️');
+                $('#modal-title').text('Helyes válasz!');
+                $('#modal-text').text('Gratulálunk, jól döntöttél.');
             } else {
-                alert(`Helytelen. A helyes válasz a jelenlegi szabályok szerint: ${expectedAnswer}`);
+                $wrapper.addClass('alert-danger');
+                $btn.addClass('btn-danger');
+                $('#modal-icon').text('❌');
+                $('#modal-title').text('Helytelen!');
+                $('#modal-text').html(`A helyes válasz a jelenlegi szabályok szerint:<br><strong>${expectedAnswer}</strong>`);
             }
         }
 
-        // Move to next question
-        currentQuestionIndex++;
-        renderQuestion();
+        if (showModal) {
+            // Force focus to button when modal opens for accessibility and mobile clicks
+            $('#feedbackModal').off('shown.bs.modal').on('shown.bs.modal', function () {
+                $btn.focus();
+            });
+
+            $('#feedbackModal').off('hidden.bs.modal').on('hidden.bs.modal', function () {
+                currentQuestionIndex++;
+                renderQuestion();
+            });
+
+            $('#feedbackModal').modal('show');
+        } else {
+            currentQuestionIndex++;
+            renderQuestion();
+        }
     }
 
     // --- 8. UTILITIES ---
