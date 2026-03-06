@@ -299,26 +299,57 @@ $(document).ready(function() {
     }
 
 // Export Data as JSON file
+// Export Data as JSON file
     function downloadData() {
         const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(experimentData, null, 2));
         const downloadAnchorNode = document.createElement('a');
         
-        // Format filename: anon_nev-timestamp.json
         const safeName = (experimentData.user.anonim_nev || "user").replace(/[^a-z0-9]/gi, '_').toLowerCase();
         const dateStr = new Date().toISOString().slice(0,10);
         
         downloadAnchorNode.setAttribute("href",     dataStr);
         downloadAnchorNode.setAttribute("download", `kresz_kutatas_${safeName}_${dateStr}.json`);
-        document.body.appendChild(downloadAnchorNode); // required for firefox
+        document.body.appendChild(downloadAnchorNode); 
         downloadAnchorNode.click();
         downloadAnchorNode.remove();
         
-        // --- UPDATED UI LOGIC ---
+        // --- NEW TABLE GENERATION LOGIC ---
         $('#message-title').text("Sikeres letöltés!");
-        $('#message-content').text("Köszönjük az együttműködést, az ablakot most már bezárhatja. Ha a letöltés nem indult el, vagy elveszett a fájl, kattintson az alábbi gombra.");
         
-        // Instead of hiding the button, we keep it visible and change the text.
-        // The click event is already bound to this function, so clicking it will just run this again!
+        let tableHtml = `
+            <p class="mb-4">Köszönjük az együttműködést! Alább láthatja az eredményeit összefoglalva:</p>
+            <div class="table-responsive" style="max-height: 400px; overflow-y: auto;">
+                <table class="table table-sm table-striped table-hover border">
+                    <thead class="table-dark sticky-top">
+                        <tr>
+                            <th>Blokk</th>
+                            <th>Válasz</th>
+                            <th>Helyes?</th>
+                            <th>Reakcióidő</th>
+                        </tr>
+                    </thead>
+                    <tbody>`;
+
+        experimentData.logs.forEach(log => {
+            const statusClass = log.is_correct ? 'text-success' : 'text-danger';
+            const statusIcon = log.is_correct ? '✔️' : '❌';
+            
+            tableHtml += `
+                <tr>
+                    <td class="small">${log.block_name}</td>
+                    <td class="small">${log.user_answer || "Nincs"}</td>
+                    <td class="${statusClass} fw-bold">${statusIcon}</td>
+                    <td>${log.reaction_time_ms} ms</td>
+                </tr>`;
+        });
+
+        tableHtml += `
+                    </tbody>
+                </table>
+            </div>
+            <p class="mt-4 text-muted small">Ha a letöltés nem indult el, kattintson az alábbi gombra.</p>`;
+        
+        $('#message-content').html(tableHtml);
         $('#message-btn').text("Letöltés újra").removeClass('hidden');
     }
 
