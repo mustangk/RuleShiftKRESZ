@@ -41,7 +41,7 @@
     {
       "type": "message",
       "title": "Éles teszt következik",
-      "content": "Most kezdődik az éles teszt az ÚJ szabályok alapján. Figyelem: Ebben a blokkban az idő is számít, és nem kap visszajelzést a helyes válaszokról!",
+      "content": "Most kezdődik az éles teszt az ÚJ szabályok alapján. Figyelem: Ebben a blokkban 10 másodperce van válaszolni a kérdésekre, és nem kap visszajelzést a helyes válaszokról!",
       "button_text": "Teszt indítása"
     },
     {
@@ -59,7 +59,7 @@
       ],
       "correct_answer_field": "rule_shift_answer",
       "has_feedback": false,
-      "time_limit_ms": 5000
+      "time_limit_ms": 10000
     },
     {
       "type": "message",
