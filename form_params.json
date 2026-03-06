@@ -1,0 +1,38 @@
+[
+  {
+    "id": "anonim_nev",
+    "label": "Anonim azonosító (pl. becenév vagy monogram)",
+    "type": "text",
+    "required": true,
+    "placeholder": "Válasz beírása..."
+  },
+  {
+    "id": "kitoltes_szama",
+    "label": "Hányadik alkalommal tölti ki ezt a tesztet?",
+    "type": "number",
+    "min": 1,
+    "default": 1,
+    "required": true
+  },
+  {
+    "id": "korcsoport",
+    "label": "Korcsoport",
+    "type": "select",
+    "options": [
+      "17-25 év",
+      "26-35 év",
+      "36-50 év",
+      "51-65 év",
+      "65 év felett"
+    ],
+    "required": true
+  },
+  {
+    "id": "jogositvany_kora",
+    "label": "Mióta rendelkezik B kategóriás jogosítvánnyal? (Évek száma)",
+    "type": "number",
+    "min": 0,
+    "required": true,
+    "help_text": "Ha idén szerezte, írjon 0-t."
+  }
+]

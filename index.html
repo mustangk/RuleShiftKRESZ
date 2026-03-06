@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRESZ Szabályváltozás Kutatás</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f8f9fa; }
+        .app-container { max-width: 800px; margin: 40px auto; }
+        .question-image { max-height: 400px; object-fit: contain; width: 100%; margin-bottom: 20px; }
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+
+<div class="container app-container">
+
+    <div id="form-container" class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Kutatási Adatok Megadása</h4>
+        </div>
+        <div class="card-body">
+            <p class="text-muted">Kérjük, a teszt megkezdése előtt töltse ki az alábbi adatokat. Az adatok kezelése anonim módon történik.</p>
+            
+            <form id="demographics-form">
+                <div id="dynamic-form-fields"></div>
+
+                <div class="mb-4 form-check mt-4 border-top pt-3">
+                    <input type="checkbox" class="form-check-input" id="accept-terms" required>
+                    <label class="form-check-label" for="accept-terms">
+                        Elolvastam és elfogadom az <a href="terms.html" target="_blank">Adatkezelési tájékoztatót</a>.
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 fs-5">Tovább a teszthez</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="message-container" class="card shadow-sm hidden text-center">
+        <div class="card-body p-5">
+            <h2 id="message-title" class="mb-4"></h2>
+            <p id="message-content" class="lead mb-5"></p>
+            <button id="message-btn" class="btn btn-success btn-lg"></button>
+        </div>
+    </div>
+
+    <div id="test-container" class="card shadow-sm hidden">
+        <div class="card-header d-flex justify-content-between align-items-center bg-dark text-white">
+            <span id="block-name-display"></span>
+            <span id="question-counter"></span>
+        </div>
+        <div class="card-body text-center">
+            <h4 id="question-text" class="mb-4"></h4>
+            <img id="question-image" src="" alt="KRESZ Kép" class="question-image rounded bg-light hidden">
+            <div id="options-container" class="d-grid gap-2 col-md-8 mx-auto mt-4"></div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

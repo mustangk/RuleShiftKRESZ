@@ -1,0 +1,72 @@
+{
+  "experiment_sequence": [
+    {
+      "type": "message",
+      "title": "Üdvözöljük a KRESZ Kutatásban!",
+      "content": "A következő blokkban hagyományos KRESZ szabályok szerint kell válaszolnia a kérdésekre. Nincs időkorlát. Kattintson a Tovább gombra a kezdéshez.",
+      "button_text": "Tovább"
+    },
+    {
+      "type": "block",
+      "name": "Alapállapot (Baseline)",
+      "sources": [
+        {
+          "file": "data/egyenrangu-utkeresztezodesben-egyenesen.json",
+          "count": 10
+        }
+      ],
+      "correct_answer_field": "correct_answer",
+      "has_feedback": false,
+      "time_limit_ms": null
+    },
+    {
+      "type": "message",
+      "title": "FIGYELEM: Szabályváltozás! (Rule-Shift)",
+      "content": "Képzelje el, hogy a KRESZ megváltozott: Mostantól az egyenrangú útkereszteződésekben a BALRÓL érkezőnek is elsőbbséget kell adni! A következő gyakorló blokkban eszerint válaszoljon.",
+      "button_text": "Megértettem, kezdjük a gyakorlást"
+    },
+    {
+      "type": "block",
+      "name": "Gyakorló blokk",
+      "sources": [
+        {
+          "file": "data/egyenrangu-utkeresztezodesben-egyenesen.json",
+          "count": 5
+        }
+      ],
+      "correct_answer_field": "rule_shift_answer",
+      "has_feedback": false,
+      "time_limit_ms": null
+    },
+    {
+      "type": "message",
+      "title": "Éles teszt következik",
+      "content": "Most kezdődik az éles teszt az ÚJ szabályok alapján. Figyelem: Ebben a blokkban az idő is számít, és nem kap visszajelzést a helyes válaszokról!",
+      "button_text": "Teszt indítása"
+    },
+    {
+      "type": "block",
+      "name": "Éles teszt (Magas tét)",
+      "sources": [
+        {
+          "file": "data/egyenrangu-utkeresztezodesben-egyenesen.json",
+          "count": 5
+        },
+        {
+          "file": "data/egyenrangu-utkeresztezodesben-bekanyarodva.json",
+          "count": 5
+        }
+      ],
+      "correct_answer_field": "rule_shift_answer",
+      "has_feedback": false,
+      "time_limit_ms": 5000
+    },
+    {
+      "type": "message",
+      "title": "Teszt vége",
+      "content": "Köszönjük a részvételt! Kérjük, kattintson a gombra az eredmények letöltéséhez.",
+      "button_text": "Adatok letöltése",
+      "action": "download_logs"
+    }
+  ]
+}
