@@ -1,0 +1,261 @@
+{
+  "user": {
+    "anonim_nev": "sdg",
+    "kitoltes_szama": "1",
+    "korcsoport": "26-35 év",
+    "jogositvany_kora": "4",
+    "experiment_start_time": "2026-03-06T08:53:16.560Z"
+  },
+  "logs": [
+    {
+      "block_name": "Alapállapot (Baseline)",
+      "question_text": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+      "expected_rule_field": "correct_answer",
+      "user_answer": "Igen.",
+      "correct_answer": "Igen.",
+      "is_correct": true,
+      "reaction_time_ms": 4382,
+      "timestamp": "2026-03-06T08:53:22.002Z"
+    },
+    {
+      "block_name": "Alapállapot (Baseline)",
+      "question_text": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+      "expected_rule_field": "correct_answer",
+      "user_answer": "Igen.",
+      "correct_answer": "Igen.",
+      "is_correct": true,
+      "reaction_time_ms": 498,
+      "timestamp": "2026-03-06T08:53:22.501Z"
+    },
+    {
+      "block_name": "Alapállapot (Baseline)",
+      "question_text": "Melyik jármű haladhat tovább elsőként?",
+      "expected_rule_field": "correct_answer",
+      "user_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+      "correct_answer": "A \"B\" jelű jármű.",
+      "is_correct": false,
+      "reaction_time_ms": 145,
+      "timestamp": "2026-03-06T08:53:22.648Z"
+    },
+    {
+      "block_name": "Alapállapot (Baseline)",
+      "question_text": "Melyik jármű haladhat tovább elsőként?",
+      "expected_rule_field": "correct_answer",
+      "user_answer": "AZ \"A\" jelű jármű.",
+      "correct_answer": "AZ \"A\" jelű jármű.",
+      "is_correct": true,
+      "reaction_time_ms": 142,
+      "timestamp": "2026-03-06T08:53:22.790Z"
+    },
+    {
+      "block_name": "Alapállapot (Baseline)",
+      "question_text": "Ki haladhat tovább elsőként?",
+      "expected_rule_field": "correct_answer",
+      "user_answer": "A \"B\" jelű gyalogos.",
+      "correct_answer": "A \"B\" jelű gyalogos.",
+      "is_correct": true,
+      "reaction_time_ms": 131,
+      "timestamp": "2026-03-06T08:53:22.922Z"
+    },
+    {
+      "block_name": "Alapállapot (Baseline)",
+      "question_text": "Mi a helyes áthaladási sorrend az ábrán látható útkereszteződésben?",
+      "expected_rule_field": "correct_answer",
+      "user_answer": "Ön, A, B.",
+      "correct_answer": "Ön, A, B.",
+      "is_correct": true,
+      "reaction_time_ms": 674,
+      "timestamp": "2026-03-06T08:53:23.597Z"
+    },
+    {
+      "block_name": "Alapállapot (Baseline)",
+      "question_text": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+      "expected_rule_field": "correct_answer",
+      "user_answer": "Igen.",
+      "correct_answer": "Igen.",
+      "is_correct": true,
+      "reaction_time_ms": 150,
+      "timestamp": "2026-03-06T08:53:23.748Z"
+    },
+    {
+      "block_name": "Alapállapot (Baseline)",
+      "question_text": "Mikor haladhat a kormánykerékkel abrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+      "expected_rule_field": "correct_answer",
+      "user_answer": "Az \"A\" és \"B\" jelű járművek előtt.",
+      "correct_answer": "Az \"A\" és \"B\" jelű járművek előtt.",
+      "is_correct": true,
+      "reaction_time_ms": 151,
+      "timestamp": "2026-03-06T08:53:23.900Z"
+    },
+    {
+      "block_name": "Alapállapot (Baseline)",
+      "question_text": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+      "expected_rule_field": "correct_answer",
+      "user_answer": "Igen.",
+      "correct_answer": "Igen.",
+      "is_correct": true,
+      "reaction_time_ms": 143,
+      "timestamp": "2026-03-06T08:53:24.044Z"
+    },
+    {
+      "block_name": "Alapállapot (Baseline)",
+      "question_text": "Melyik jármű haladhat tovább elsőként?",
+      "expected_rule_field": "correct_answer",
+      "user_answer": "Az \"A\" jelű jármű.",
+      "correct_answer": "Az \"A\" jelű jármű.",
+      "is_correct": true,
+      "reaction_time_ms": 153,
+      "timestamp": "2026-03-06T08:53:24.198Z"
+    },
+    {
+      "block_name": "Gyakorló blokk",
+      "question_text": "Mikor haladhat a kormánykerékkel abrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "Az \"C\" jelű jármű után, a \"A\" és \"B\" jelű járművek előtt.",
+      "correct_answer": "Az \"C\" jelű jármű után, a \"A\" és \"B\" jelű járművek előtt.",
+      "is_correct": true,
+      "reaction_time_ms": 1159,
+      "timestamp": "2026-03-06T08:53:26.243Z"
+    },
+    {
+      "block_name": "Gyakorló blokk",
+      "question_text": "Melyik jármű haladhat tovább elsőként?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "A \"B\" jelű jármű.",
+      "correct_answer": "A \"B\" jelű jármű.",
+      "is_correct": true,
+      "reaction_time_ms": 4819,
+      "timestamp": "2026-03-06T08:53:31.063Z"
+    },
+    {
+      "block_name": "Gyakorló blokk",
+      "question_text": "Melyik jármű haladhat tovább elsőként?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+      "correct_answer": "Az \"A\" jelű jármű.",
+      "is_correct": false,
+      "reaction_time_ms": 550,
+      "timestamp": "2026-03-06T08:53:31.614Z"
+    },
+    {
+      "block_name": "Gyakorló blokk",
+      "question_text": "Mikor haladhat a kormánykerékkel abrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "Másodikként.",
+      "correct_answer": "Másodikként.",
+      "is_correct": true,
+      "reaction_time_ms": 161,
+      "timestamp": "2026-03-06T08:53:31.776Z"
+    },
+    {
+      "block_name": "Gyakorló blokk",
+      "question_text": "Mi a helyes áthaladási sorrend az ábrán látható útkereszteződésben?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "A, Ön, B.",
+      "correct_answer": "A, Ön, B.",
+      "is_correct": true,
+      "reaction_time_ms": 122,
+      "timestamp": "2026-03-06T08:53:31.899Z"
+    },
+    {
+      "block_name": "Éles teszt (Magas tét)",
+      "question_text": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "Igen.",
+      "correct_answer": "Igen.",
+      "is_correct": true,
+      "reaction_time_ms": 821,
+      "timestamp": "2026-03-06T08:53:33.646Z"
+    },
+    {
+      "block_name": "Éles teszt (Magas tét)",
+      "question_text": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "Igen.",
+      "correct_answer": "Igen.",
+      "is_correct": true,
+      "reaction_time_ms": 155,
+      "timestamp": "2026-03-06T08:53:33.802Z"
+    },
+    {
+      "block_name": "Éles teszt (Magas tét)",
+      "question_text": "Melyik jármű haladhat tovább elsőként?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+      "correct_answer": "A kerékpár.",
+      "is_correct": false,
+      "reaction_time_ms": 173,
+      "timestamp": "2026-03-06T08:53:33.976Z"
+    },
+    {
+      "block_name": "Éles teszt (Magas tét)",
+      "question_text": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+      "correct_answer": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+      "is_correct": true,
+      "reaction_time_ms": 148,
+      "timestamp": "2026-03-06T08:53:34.125Z"
+    },
+    {
+      "block_name": "Éles teszt (Magas tét)",
+      "question_text": "Melyik jármű haladhat tovább elsőként?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "Ön.",
+      "correct_answer": "AZ \"A\" jelű jármű.",
+      "is_correct": false,
+      "reaction_time_ms": 143,
+      "timestamp": "2026-03-06T08:53:34.269Z"
+    },
+    {
+      "block_name": "Éles teszt (Magas tét)",
+      "question_text": "Melyik jármű haladhat tovább elsőként?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+      "correct_answer": "Az \"A\" jelű jármű.",
+      "is_correct": false,
+      "reaction_time_ms": 223,
+      "timestamp": "2026-03-06T08:53:34.493Z"
+    },
+    {
+      "block_name": "Éles teszt (Magas tét)",
+      "question_text": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "Nincs.",
+      "correct_answer": "Nincs.",
+      "is_correct": true,
+      "reaction_time_ms": 174,
+      "timestamp": "2026-03-06T08:53:34.668Z"
+    },
+    {
+      "block_name": "Éles teszt (Magas tét)",
+      "question_text": "Melyik jármű haladhat tovább elsőként?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+      "correct_answer": "A \"B\" jelű jármű.",
+      "is_correct": false,
+      "reaction_time_ms": 167,
+      "timestamp": "2026-03-06T08:53:34.836Z"
+    },
+    {
+      "block_name": "Éles teszt (Magas tét)",
+      "question_text": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "Nincs.",
+      "correct_answer": "Igen.",
+      "is_correct": false,
+      "reaction_time_ms": 209,
+      "timestamp": "2026-03-06T08:53:35.046Z"
+    },
+    {
+      "block_name": "Éles teszt (Magas tét)",
+      "question_text": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+      "expected_rule_field": "rule_shift_answer",
+      "user_answer": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+      "correct_answer": "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+      "is_correct": false,
+      "reaction_time_ms": 163,
+      "timestamp": "2026-03-06T08:53:35.209Z"
+    }
+  ]
+}
