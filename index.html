@@ -10,6 +10,17 @@
         .app-container { max-width: 800px; margin: 40px auto; }
         .question-image { max-height: 400px; object-fit: contain; width: 100%; margin-bottom: 20px; }
         .hidden { display: none !important; }
+        @media (hover: none) {
+            .answer-btn:hover {
+                background-color: transparent !important;
+                color: #0d6efd !important;
+            }
+            /* Keep the visual feedback ONLY while the finger is actively pressing down */
+            .answer-btn:active {
+                background-color: #0d6efd !important;
+                color: #fff !important;
+            }
+        }
     </style>
 </head>
 <body>
