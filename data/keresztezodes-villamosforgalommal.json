@@ -1,0 +1,629 @@
+[
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1505.jpg",
+    "options": [
+      "Az Ön kormánykerékkel ábrázolt járműve.",
+      "A villamos."
+    ],
+    "correct_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+    "explanation": "Az egyenesen haladő járműnek elsőbbsége van a kanyarodó villamossal szemben."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1518.jpg",
+    "options": [
+      "Az \"A\" jelű jármű.",
+      "A \"B\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve."
+    ],
+    "correct_answer": "A \"B\" jelű jármű.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1502.jpg",
+    "options": [
+      "Az \"A\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve.",
+      "A \"B\" jelű jármű."
+    ],
+    "correct_answer": "Az \"A\" jelű jármű.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1520.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "Az \"A\" és \"B\" jelű járművek után.",
+      "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
+    ],
+    "correct_answer": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A. Kereszteződés szabályai"
+  },
+  {
+    "question": "Mi a helyes áthaladási sorrend az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1512.jpg",
+    "options": [
+      "A, Ön, B.",
+      "B, Ön, A.",
+      "A, B, Ön."
+    ],
+    "correct_answer": "A, B, Ön.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1514.jpg",
+    "options": [
+      "Nincs.",
+      "Van."
+    ],
+    "correct_answer": "Van.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A és Ön egyszerre."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1519.jpg",
+    "options": [
+      "A villamos.",
+      "Az Ön kormánykerékkel ábrázolt járműve."
+    ],
+    "correct_answer": "A villamos.",
+    "explanation": ""
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1503.jpg",
+    "options": [
+      "A \"B\" jelű jármű.",
+      "Az \"A\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve."
+    ],
+    "correct_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
+  },
+  {
+    "question": "Mi a helyes áthaladási sorrend az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1501.jpg",
+    "options": [
+      "B és A egyszerre, majd Ön.",
+      "B, Ön, A.",
+      "Ön , B, A."
+    ],
+    "correct_answer": "B, Ön, A.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A. Kereszteződés szabályai"
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1515.jpg",
+    "options": [
+      "Van.",
+      "Nincs."
+    ],
+    "correct_answer": "Van.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B és Ön egyszerre."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1521.jpg",
+    "options": [
+      "Nincs.",
+      "Van."
+    ],
+    "correct_answer": "Van.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön, végül B."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1522.jpg",
+    "options": [
+      "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "Az \"A\" és \"B\" jelű járművek után."
+    ],
+    "correct_answer": "Az \"A\" és \"B\" jelű járművek előtt.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1514.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "A \"B\" jelű jármű után, az \"A\" jelű járművel egyidejűleg.",
+      "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
+    ],
+    "correct_answer": "A \"B\" jelű jármű után, az \"A\" jelű járművel egyidejűleg.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A és Ön egyszerre. Kereszteződés szabályai"
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1506.jpg",
+    "options": [
+      "Van.",
+      "Nincs."
+    ],
+    "correct_answer": "Nincs.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd A és B egyszerre."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1507.jpg",
+    "options": [
+      "Az \"A\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve.",
+      "A \"B\" jelű jármű."
+    ],
+    "correct_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1509.jpg",
+    "options": [
+      "Van.",
+      "Nincs."
+    ],
+    "correct_answer": "Van.",
+    "explanation": "Áthaladási sorrend: első a C jelű jármű, majd A, utána B, végül Ön."
+  },
+  {
+    "question": "Mi a helyes áthaladási sorrend az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1503.jpg",
+    "options": [
+      "Ön, B, A.",
+      "B, Ön, A.",
+      "Ön, a, B."
+    ],
+    "correct_answer": "Ön, B, A.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A. Kereszteződés szabályai"
+  },
+  {
+    "question": "Mikor haladhat a kormánykerékkel abrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1503.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+      "Az \"A\" és \"B\" jelű járművek után."
+    ],
+    "correct_answer": "Az \"A\" és \"B\" jelű járművek előtt.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1508.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+      "Az \"A\" és \"B\" jelű járművek után."
+    ],
+    "correct_answer": "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön, végül B."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1521.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek után.",
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt."
+    ],
+    "correct_answer": "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön, végül B."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1509.jpg",
+    "options": [
+      "Utolsóként.",
+      "harmadikként.",
+      "Másodikként."
+    ],
+    "correct_answer": "Utolsóként.",
+    "explanation": "Áthaladási sorrend: első a C jelű jármű, majd A, utána B, végül Ön. Kereszteződés szabályai"
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1518.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "Az \"A\" és \"B\" jelű járművek után.",
+      "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
+    ],
+    "correct_answer": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1503.jpg",
+    "options": [
+      "Nincs.",
+      "Van."
+    ],
+    "correct_answer": "Nincs.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
+  },
+  {
+    "question": "Mi a helyes áthaladási sorrend az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1507.jpg",
+    "options": [
+      "B, Ön, A.",
+      "Ön, B, A.",
+      "A, B, Ön."
+    ],
+    "correct_answer": "Ön, B, A.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1501.jpg",
+    "options": [
+      "A \"B\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve.",
+      "Az \"A\" jelű jármű."
+    ],
+    "correct_answer": "A \"B\" jelű jármű.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1510.jpg",
+    "options": [
+      "A \"B\" jelű jármű.",
+      "Az \"A\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve."
+    ],
+    "correct_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd A és B egyszerre."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1504.jpg",
+    "options": [
+      "Nincs.",
+      "Van."
+    ],
+    "correct_answer": "Nincs.",
+    "explanation": "Az egyenesen haladő járműnek elsőbbsége van a kanyarodó villamossal szemben."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1506.jpg",
+    "options": [
+      "Az \"A\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve.",
+      "A \"B\" jelű jármű."
+    ],
+    "correct_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd A és B egyszerre."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1509.jpg",
+    "options": [
+      "A \"B\" jelű jármű.",
+      "Az \"A\" jelű jármű.",
+      "A \"C\" jelű jármű."
+    ],
+    "correct_answer": "A \"C\" jelű jármű.",
+    "explanation": "Áthaladási sorrend: első a C jelű jármű, majd A, utána B, végül Ön."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1513.jpg",
+    "options": [
+      "Van.",
+      "Nincs."
+    ],
+    "correct_answer": "Van.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1522.jpg",
+    "options": [
+      "A \"B\" jelű jármű.",
+      "Az \"A\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve."
+    ],
+    "correct_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd \"B\", végül \"A\"."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1512.jpg",
+    "options": [
+      "A \"B\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve.",
+      "Az \"A\" jelű jármű."
+    ],
+    "correct_answer": "Az \"A\" jelű jármű.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1514.jpg",
+    "options": [
+      "Az Ön kormánykerékkel ábrázolt járműve.",
+      "Az \"A\" jelű jármű.",
+      "A \"B\" jelű jármű."
+    ],
+    "correct_answer": "A \"B\" jelű jármű.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A és Ön egyszerre."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1510.jpg",
+    "options": [
+      "Nincs.",
+      "Van."
+    ],
+    "correct_answer": "Nincs.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd A és B egyszerre."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1501.jpg",
+    "options": [
+      "Nincs.",
+      "Van."
+    ],
+    "correct_answer": "Van.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1517.jpg",
+    "options": [
+      "Az Ön kormánykerékkel ábrázolt járműve.",
+      "Az \"A\" jelű jármű.",
+      "A \"B\" jelű jármű."
+    ],
+    "correct_answer": "A \"B\" jelű jármű.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1517.jpg",
+    "options": [
+      "Van.",
+      "Nincs."
+    ],
+    "correct_answer": "Van.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1512.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek után.",
+      "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+      "Az \"A\" és \"B\" jelű járművek előtt."
+    ],
+    "correct_answer": "Az \"A\" és \"B\" jelű járművek után.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön. Kereszteződés szabályai"
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1520.jpg",
+    "options": [
+      "Van.",
+      "Nincs."
+    ],
+    "correct_answer": "Van.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1512.jpg",
+    "options": [
+      "Van.",
+      "Nincs."
+    ],
+    "correct_answer": "Van.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1504.jpg",
+    "options": [
+      "Az Ön kormánykerékkel ábrázolt járműve.",
+      "A villamos."
+    ],
+    "correct_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+    "explanation": "Az egyenesen haladő járműnek elsőbbsége van a kanyarodó villamossal szemben."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1513.jpg",
+    "options": [
+      "A \"B\" jelű jármű.",
+      "Az \"A\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve."
+    ],
+    "correct_answer": "A \"B\" jelű jármű.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1513.jpg",
+    "options": [
+      "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+      "Az \"A\" és \"B\" jelű járművek után.",
+      "Az \"A\" és \"B\" jelű járművek előtt."
+    ],
+    "correct_answer": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A. Kereszteződés szabályai"
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1502.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+      "Az \"A\" és \"B\" jelű járművek után."
+    ],
+    "correct_answer": "Az \"A\" és \"B\" jelű járművek után.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1507.jpg",
+    "options": [
+      "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "Az \"A\" és \"B\" jelű járművek után."
+    ],
+    "correct_answer": "Az \"A\" és \"B\" jelű járművek előtt.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1517.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "Az \"A\" és \"B\" jelű járművek után.",
+      "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
+    ],
+    "correct_answer": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1519.jpg",
+    "options": [
+      "Van.",
+      "Nincs."
+    ],
+    "correct_answer": "Van.",
+    "explanation": ""
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1507.jpg",
+    "options": [
+      "Van.",
+      "Nincs."
+    ],
+    "correct_answer": "Nincs.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1505.jpg",
+    "options": [
+      "Nincs.",
+      "Van."
+    ],
+    "correct_answer": "Nincs.",
+    "explanation": "Az egyenesen haladő járműnek elsőbbsége van a kanyarodó villamossal szemben."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1501.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+      "Az \"A\" és \"B\" jelű járművek után."
+    ],
+    "correct_answer": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A. Kereszteződés szabályai"
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1510.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "Az \"A\" és \"B\" jelű járművek után.",
+      "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
+    ],
+    "correct_answer": "Az \"A\" és \"B\" jelű járművek előtt.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd A és B.egyszerre."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1515.jpg",
+    "options": [
+      "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+      "A \"A\" jelű jármű után, az \"B\" jelű járművel egyidejűleg.",
+      "Az \"A\" és \"B\" jelű járművek előtt."
+    ],
+    "correct_answer": "A \"A\" jelű jármű után, az \"B\" jelű járművel egyidejűleg.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B és Ön egyszerre."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1521.jpg",
+    "options": [
+      "Az \"A\" jelű jármű.",
+      "A \"B\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve."
+    ],
+    "correct_answer": "Az \"A\" jelű jármű.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön, végül B."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1502.jpg",
+    "options": [
+      "Nincs.",
+      "Van."
+    ],
+    "correct_answer": "Van.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1515.jpg",
+    "options": [
+      "A \"B\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve.",
+      "Az \"A\" jelű jármű."
+    ],
+    "correct_answer": "Az \"A\" jelű jármű.",
+    "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B és Ön egyszerre."
+  },
+  {
+    "question": "Melyik jármű haladhat tovább elsőként?",
+    "image": "https://kreszteszt.net/resources/test-images/1520.jpg",
+    "options": [
+      "Az \"A\" jelű jármű.",
+      "A \"B\" jelű jármű.",
+      "Az Ön kormánykerékkel ábrázolt járműve."
+    ],
+    "correct_answer": "A \"B\" jelű jármű.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Mikor haladhat át kormánykerékkel ábrázolt gépkocsijával az ábrán látható útkereszteződésben?",
+    "image": "https://kreszteszt.net/resources/test-images/1506.jpg",
+    "options": [
+      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+      "Az \"A\" és \"B\" jelű járművek után."
+    ],
+    "correct_answer": "Az \"A\" és \"B\" jelű járművek előtt.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd A és B egyszerre. Kereszteződés szabályai"
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1518.jpg",
+    "options": [
+      "Nincs.",
+      "Van."
+    ],
+    "correct_answer": "Van.",
+    "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
+    "image": "https://kreszteszt.net/resources/test-images/1522.jpg",
+    "options": [
+      "Nincs.",
+      "Van."
+    ],
+    "correct_answer": "Nincs.",
+    "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
+  }
+]

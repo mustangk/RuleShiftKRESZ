@@ -1,0 +1,318 @@
+[
+  {
+    "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi?",
+    "image": "https://kreszteszt.net/resources/test-images/166.jpg",
+    "options": [
+      "Igen.",
+      "Nem."
+    ],
+    "correct_answer": "Nem.",
+    "explanation": "Az ellentétes irányú villamospályára előzés céljából nem szabad ráhajtani."
+  },
+  {
+    "question": "Ön a \"T\" jelzésű gépkocsit vezeti. Előzhet-e a bal oldali villamospályán?",
+    "image": "https://kreszteszt.net/resources/test-images/167.jpg",
+    "options": [
+      "Igen.",
+      "Nem."
+    ],
+    "correct_answer": "Nem.",
+    "explanation": "Az ellentétes irányú villamospályára előzés céljából nem szabad ráhajtani."
+  },
+  {
+    "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi?",
+    "image": "https://kreszteszt.net/resources/test-images/170.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Nem.",
+    "explanation": "A forgalmi sávok útburkolati jellel vannak jelölve, így az előzés ott nem megengedett."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Ráhajthat-e a vasúti átjáróra, ha látja a közeledő vonatot?",
+    "image": "https://kreszteszt.net/resources/test-images/208.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Nem.",
+    "explanation": "Ha az átjáró felé vasúti jármű közlekedik, a vasúti átjáró előtt meg kell állni."
+  },
+  {
+    "question": "Ráhajthat-e a vasúti átjáróra az \"A\" jelű jármű?",
+    "image": "https://kreszteszt.net/resources/test-images/195.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "Ezen az átjárón előreláthatólag folyamatosan lehet áthaladni."
+  },
+  {
+    "question": "Ön a személygépkocsit vezeti. Számítania kell-e arra, hogy a villamos esetleg egyenesen halad tovább?",
+    "image": "https://kreszteszt.net/resources/test-images/427.jpg",
+    "options": [
+      "Nem, a villamosra is vonatkozik a kötelező haladási irány jelzőtábla.",
+      "Igen, de ez esetben Önnek elsőbbsége van vele szemben.",
+      "Igen, s ez esetben elsőbbsége van Önnel szemben."
+    ],
+    "correct_answer": "Igen, s ez esetben elsőbbsége van Önnel szemben.",
+    "explanation": "A villamosra a\"kötelező haladási irány\" tábla nem vonatkozik."
+  },
+  {
+    "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi?",
+    "image": "https://kreszteszt.net/resources/test-images/174.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "Az útburkolati jelek a villamospályára vezetik a belső forgalmi sáv forgalmát."
+  },
+  {
+    "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi?",
+    "image": "https://kreszteszt.net/resources/test-images/436.jpg",
+    "options": [
+      "Igen.",
+      "Nem."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "A villamospályára történő besorolás nem kötelező. Ez a megoldás szabályszerű."
+  },
+  {
+    "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi?",
+    "image": "https://kreszteszt.net/resources/test-images/438.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "Ha ez a villamosforgalom zavarása nélkül történik, akkor szabályos."
+  },
+  {
+    "question": "Ön a \"T\" jelzésű tanulókocsit vezeti. Csak a vasúti átjáró után kezdheti meg az előzést?",
+    "image": "https://kreszteszt.net/resources/test-images/212.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "A vasúti pálya elhagyása után - ha feltételek biztosítottak - a lovas kocsi megelőzhető."
+  },
+  {
+    "question": "Szabályosan közlekedik-e az irányjelzőjét használó gépkocsi?",
+    "image": "https://kreszteszt.net/resources/test-images/169.jpg",
+    "options": [
+      "Igen.",
+      "Nem."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "A forgalmi sávok útburkolati jellel nincsenek jelölve, így az ábrázolt előzés szabályos."
+  },
+  {
+    "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi?",
+    "image": "https://kreszteszt.net/resources/test-images/439.jpg",
+    "options": [
+      "Igen.",
+      "Nem."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "Mivel a forgalmi sávokat terelővonallal jelölték meg, a villamospályára nem szabad besorolni."
+  },
+  {
+    "question": "Ön a \"T\" jelzésű tanulókocsit vezeti. Mikor indulhat el?",
+    "image": "https://kreszteszt.net/resources/test-images/206.jpg",
+    "options": [
+      "Azonnal, ha a vonat elhaladt.",
+      "Ha a fénysorompó villogó fehér fényjelzésre vált át."
+    ],
+    "correct_answer": "Ha a fénysorompó villogó fehér fényjelzésre vált át.",
+    "explanation": "A fénysorompó piros jelzése esetén a vasúti átjárón sohasem szabad áthaladni."
+  },
+  {
+    "question": "Áthaladhat-e az ábrázolt vasúti átjárón?",
+    "image": "https://kreszteszt.net/resources/test-images/205.jpg",
+    "options": [
+      "Igen.",
+      "Nem."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "A fénysorompó villogó fehér - a vonatkozó szabályok megtartásával - az áthaladás engedélyezi"
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsival lakott területen az engedélyezett legnagyobb sebességgel közlekedik. Mennyire kell mérsékelnie a sebességét?",
+    "image": "https://kreszteszt.net/resources/test-images/209.jpg",
+    "options": [
+      "Legfeljebb 30 km/óra sebességgel haladhat tovább.",
+      "Legfeljebb 40 km/óra sebességgel haladhat tovább.",
+      "Annyira, hogy meg tudjon győződni az áthaladás veszélytelenségéről."
+    ],
+    "correct_answer": "Annyira, hogy meg tudjon győződni az áthaladás veszélytelenségéről.",
+    "explanation": "Nincs kötelező határ, de meg kell győződni a biztonságos áthaladás lehetőségéről."
+  },
+  {
+    "question": "Ön a \"T\" jelzésű tanulókocsit vezeti. Megelőzheti-e a lovas kocsit?",
+    "image": "https://kreszteszt.net/resources/test-images/212.jpg",
+    "options": [
+      "Igen.",
+      "Nem."
+    ],
+    "correct_answer": "Nem.",
+    "explanation": "Az állati erővel vont járművet vasúti átjáróban még a gépkocsik sem előzhetik meg."
+  },
+  {
+    "question": "Ráhajthat-e a vasúti átjáróra az \"A\" jelű jármű?",
+    "image": "https://kreszteszt.net/resources/test-images/194.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Nem.",
+    "explanation": "A sínek után feltorlódott a forgalom, így az \"A\" jelű járműnek az átjárón előreláthatólag meg kell állni. Ebben az esetben tilos ráhajtani az átjáróra."
+  },
+  {
+    "question": "Ön a kormánykerékkel ábrázolt gépkocsival lakott területen kívül az engedélyezett legnagyobb sebességgel közlekedik. Mennyire kell csökkentenie sebességét?",
+    "image": "https://kreszteszt.net/resources/test-images/586.jpg",
+    "options": [
+      "A veszélyt jelző táblától legfeljebb 50 km/h sebességgel haladhat.",
+      "Legfeljebb 50 km/h sebességgel haladhat.",
+      "Annyira, hogy meg tudjon győződni az áthaladás veszélytelenségéről."
+    ],
+    "correct_answer": "Annyira, hogy meg tudjon győződni az áthaladás veszélytelenségéről.",
+    "explanation": "2010.01.01.-től nincs konkrét sebességhatár."
+  },
+  {
+    "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi?",
+    "image": "https://kreszteszt.net/resources/test-images/165.jpg",
+    "options": [
+      "Igen.",
+      "Nem."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "A párhuzamos közlekedésre nem alkalmas úttesten az azonos irányú villamospálya igénybevehető. Közlekedési táblák kvíz"
+  },
+  {
+    "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi a villamospályán?",
+    "image": "https://kreszteszt.net/resources/test-images/395.jpg",
+    "options": [
+      "Igen.",
+      "Nem."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "Ha ez a villamosforgalom zavarása nélkül történik, akkor szabályos."
+  },
+  {
+    "question": "Balra kíván bekanyarodni. Szabályos helyre sorolt-e be?",
+    "image": "https://kreszteszt.net/resources/test-images/437.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "A villamospályára történő besorolás nem kötelező. Ez a megoldás is szabályszerű."
+  },
+  {
+    "question": "Ön a \"T\" jelzésű gépkocsit vezeti. Előzhet-e az Ön felöli villamospályán?",
+    "image": "https://kreszteszt.net/resources/test-images/167.jpg",
+    "options": [
+      "Igen.",
+      "Nem."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "Az azonos irányú villamospályára előzés céljából rá szabad hajtani."
+  },
+  {
+    "question": "Szabályosan közlekedik-e az \"A\" jelű gépkocsi?",
+    "image": "https://kreszteszt.net/resources/test-images/171.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Nem.",
+    "explanation": "A forgalmi sávok útburkolati jellel vannak jelölve, így az előzés ott nem megengedett."
+  },
+  {
+    "question": "Ön az ábrán látható gépkocsit vezeti. Köteles-e elsőbbséget adni a zárt pályáról érkező villamosok részére?",
+    "image": "https://kreszteszt.net/resources/test-images/428.jpg",
+    "options": [
+      "Igen, mindkét irányból érkező villamos részére.",
+      "Igen, de csak az ellenkező irányból érkező részére.",
+      "Igen, de csak az azonos irányból érkező részére."
+    ],
+    "correct_answer": "Igen, mindkét irányból érkező villamos részére.",
+    "explanation": ""
+  },
+  {
+    "question": "Ráhajthat-e az ábrázolt vasúti átjáróra?",
+    "image": "https://kreszteszt.net/resources/test-images/211.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Nem.",
+    "explanation": "A fénysorompó piros jelzése esetén a vasúti átjárón sohasem szabad áthaladni."
+  },
+  {
+    "question": "Ön a személygépkocsit vezeti. Számítania kell-e arra, hogy a villamos esetleg egyenesen halad tovább?",
+    "image": "https://kreszteszt.net/resources/test-images/504.jpg",
+    "options": [
+      "Nem, a villamosra is vonatkozik a \"Kötelező haladási irány\" jelzőtábla.",
+      "Igen, de ez esetben Önnek elsőbbsége van vele szemben.",
+      "Igen, s ez esetben elsőbbsége van Önnel szemben."
+    ],
+    "correct_answer": "Igen, s ez esetben elsőbbsége van Önnel szemben.",
+    "explanation": "A villamos vezetője figyelmen kívül hagyhatja a táblák jelzését, így ő folytathatja útját egyenesen is."
+  },
+  {
+    "question": "Jobbra kíván bekanyarodni. Szabályos helyre sorolt-e be?",
+    "image": "https://kreszteszt.net/resources/test-images/396.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "A villamospályára történő besorolás nem kötelező. Ez a megoldás is szabályszerű."
+  },
+  {
+    "question": "Ráhajthat-e az ábrázolt vasúti átjáróra?",
+    "image": "https://kreszteszt.net/resources/test-images/203.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Nem.",
+    "explanation": "A teljes sorompót kiegészítő fényjelző berendezés villogó piros jelzésére meg kell állni, még akkor is, ha a sorompó rúdjai nyitott helyzetben vannak."
+  },
+  {
+    "question": "Ön a \"T\" jelzésű tanulókocsit vezeti. Mi a teendője, ha a fénysorompó üzemzavarát észleli?",
+    "image": "https://kreszteszt.net/resources/test-images/207.jpg",
+    "options": [
+      "A \"Vasúti átjáró kezdete\" táblánál meg kell állnia. Továbbhaladnia csak akkor szabad, ha meggyőződött arról, hogy vasúti jármű nem közeledik.\"",
+      "Megállás nélkül folytathatja útját, ha kellő biztonsággal meg tud győződni arról, hogy egyik irányból sem közeledik vasúti jármű.",
+      "Meg kell állnia, és várni kell arra, hogy az ilyenkor helyszínre siető jelzőőr engedélyt adjon a továbbhaladásra."
+    ],
+    "correct_answer": "A \"Vasúti átjáró kezdete\" táblánál meg kell állnia. Továbbhaladnia csak akkor szabad, ha meggyőződött arról, hogy vasúti jármű nem közeledik.\"",
+    "explanation": "Ha a fénysorompó jelzést nem ad, a megállást követően kell meggyőződni az áthaladás veszélytelenségéről."
+  },
+  {
+    "question": "Az ábrázolt fénysorompó egyik fénye sem világít. Köteles-e megállítania a mezőgazdasági vontatóját?",
+    "image": "https://kreszteszt.net/resources/test-images/210.jpg",
+    "options": [
+      "Nem.",
+      "Igen."
+    ],
+    "correct_answer": "Igen.",
+    "explanation": "A jelzőberendezés üzemzavara esetén a megállás mindig kötelező."
+  },
+  {
+    "question": "Ön a \"T\" jelzésű gépkocsit vezeti. Előzhet-e a jobb oldali villamospályán?",
+    "image": "https://kreszteszt.net/resources/test-images/172.jpg",
+    "options": [
+      "Igen.",
+      "Nem."
+    ],
+    "correct_answer": "Nem.",
+    "explanation": "A forgalmi sávok útburkolati jellel vannak jelölve, így az előzés ott szabálysértő."
+  }
+]
