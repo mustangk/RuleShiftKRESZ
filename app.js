@@ -14,6 +14,7 @@ $(document).ready(function() {
     let questionStartTime = 0;
     let blockTimer = null;
     let questionTimeout = null;
+    let visualTimerInterval = null;
 
     // --- 1. INITIALIZATION: LOAD FORM ---
     $.getJSON('form_params.json', function(formParams) {
@@ -152,14 +153,17 @@ $(document).ready(function() {
 
 // --- 6. RENDER QUESTION & TIMING ---
     function renderQuestion() {
-        // NEW: Clear any leftover timer from the previous question
+        // Clear any leftover timers
         if (questionTimeout) {
             clearTimeout(questionTimeout);
             questionTimeout = null;
         }
+        if (visualTimerInterval) {
+            clearInterval(visualTimerInterval);
+            visualTimerInterval = null;
+        }
 
         if (currentQuestionIndex >= activeQuestions.length) {
-            // Block is finished
             currentStepIndex++;
             executeStep();
             return;
@@ -179,7 +183,6 @@ $(document).ready(function() {
         const $options = $('#options-container');
         $options.empty();
 
-        // Shuffle options so the correct answer isn't always in the same place
         let displayOptions = [...q.options];
         shuffleArray(displayOptions);
 
@@ -191,15 +194,47 @@ $(document).ready(function() {
             $options.append(btn);
         });
 
-        // Start High-Precision Timer
         questionStartTime = performance.now();
 
-        // NEW: If this block has a time limit, start the countdown!
+        // --- NEW: Visual Countdown Logic ---
+        const $timerContainer = $('#timer-container');
+        const $timerBar = $('#timer-bar');
+
         if (currentBlockData.time_limit_ms) {
+            const totalTime = currentBlockData.time_limit_ms;
+            
+            // Show and reset the bar
+            $timerContainer.removeClass('hidden');
+            $timerBar.css('width', '100%').removeClass('bg-warning bg-danger').addClass('bg-success');
+
+            // Update the bar every 30 milliseconds for smooth animation
+            visualTimerInterval = setInterval(() => {
+                const elapsed = performance.now() - questionStartTime;
+                const remaining = Math.max(0, totalTime - elapsed);
+                const percentage = (remaining / totalTime) * 100;
+
+                $timerBar.css('width', `${percentage}%`);
+
+                // Change color as time runs out
+                if (percentage < 50 && percentage >= 20) {
+                    $timerBar.removeClass('bg-success').addClass('bg-warning');
+                } else if (percentage < 20) {
+                    $timerBar.removeClass('bg-warning').addClass('bg-danger');
+                }
+
+                if (remaining <= 0) {
+                    clearInterval(visualTimerInterval);
+                }
+            }, 30);
+
+            // The actual logic timeout
             questionTimeout = setTimeout(function() {
-                // If this triggers, they ran out of time. Pass an empty string as their answer.
                 handleAnswer("", q);
-            }, currentBlockData.time_limit_ms);
+            }, totalTime);
+
+        } else {
+            // Hide the timer if this block has no time limit
+            $timerContainer.addClass('hidden');
         }
     }
 
