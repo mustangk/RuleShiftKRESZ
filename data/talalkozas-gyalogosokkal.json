@@ -7,6 +7,7 @@
       "Nem."
     ],
     "correct_answer": "Igen.",
+    "gyalogos": "Nem.",
     "explanation": "A gyalogosok azért csoportosulnak a járda szélén, mert át akarnak menni a \"zebrán\"."
   },
   {
@@ -17,18 +18,8 @@
       "Nem."
     ],
     "correct_answer": "Igen.",
+    "gyalogos": "Nem.",
     "explanation": "A kanyarodó főútvonalat elhagyó gépkocsi elsőbbségadásra kötelezett a gyalogosok részére."
-  },
-  {
-    "question": "Számítani kell-e a járdaszigetről lelépő gyalogosokra a tanulókocsi vezetőjének?",
-    "image": "https://kreszteszt.net/resources/test-images/178.jpg",
-    "options": [
-      "Nem.",
-      "Igen, ezért itt fokozott figyelemmel kell haladnia.",
-      "Igen, és elsőbbségük van a járművekkel szemben."
-    ],
-    "correct_answer": "Igen, ezért itt fokozott figyelemmel kell haladnia.",
-    "explanation": "A gyalogosok a járdasziget teljes hosszában átkelhetnek, ezért fokozottan figyelni kell rájuk."
   },
   {
     "question": "Elsőbbséget kell-e adnia a gyalogosok részére?",
@@ -38,6 +29,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "gyalogos": "Nem.",
     "explanation": "A \"zebrán\" a gyalogost még csak zavarni sem szabad."
   },
   {
@@ -48,6 +40,7 @@
       "Igen."
     ],
     "correct_answer": "Nincs.",
+    "gyalogos": "Igen.",
     "explanation": "Nem ahonnan kanyarodik, hanem ahova érkezik ott van a gyalogosoknak elsőbbségük a járművel szemben."
   },
   {
@@ -58,6 +51,7 @@
       "Nem."
     ],
     "correct_answer": "Igen.",
+    "gyalogos": "Nem.",
     "explanation": "Elsőbbséget kell adni a gyalogosnak, ha azon az úttesten halad át, amelyre a jármű bekanyarodik."
   },
   {
@@ -68,17 +62,8 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "gyalogos": "Nem.",
     "explanation": "Kanyarodó járművel a gyalogosoknak elsőbbséget kell adni, azon az úttesten amelyikre a jármű kanyarodik, akkor is, ha az főútvonal."
-  },
-  {
-    "question": "Hogyan kell a járdasziget mellett elhaladnia a járművével?",
-    "image": "https://kreszteszt.net/resources/test-images/177.jpg",
-    "options": [
-      "Úgy, hogy az elsőbbségadási kötelezettségének eleget tudjon tenni, s e tekintetben a gyalogosokat a jármű sebességével ne tévessze meg.",
-      "Fokozott óvatossággal, ügyelve a gyalogosokra."
-    ],
-    "correct_answer": "Fokozott óvatossággal, ügyelve a gyalogosokra.",
-    "explanation": "A gyalogosok a járdasziget teljes hosszában átkelhetnek, ezért fokozottan kell figyelni rájuk."
   },
   {
     "question": "Elsőbbséget kell-e adnia a gyalogosok részére?",
@@ -88,6 +73,7 @@
       "Nem."
     ],
     "correct_answer": "Igen.",
+    "gyalogos": "Nem.",
     "explanation": "Elsőbbséget kell adni a gyalogosoknak, ha azon az úttesten halad át, amelyre a jármű bekanyarodik."
   },
   {
@@ -98,6 +84,7 @@
       "Nem."
     ],
     "correct_answer": "Nem.",
+    "gyalogos": "Igen.",
     "explanation": ""
   },
   {
@@ -108,6 +95,7 @@
       "Nem."
     ],
     "correct_answer": "Igen.",
+    "gyalogos": "Nem.",
     "explanation": "A kanyarodó jármű elsőbbséget kell, hogy adjon azoknak a gyalogosoknak, akik azon az úttesten haladnak keresztül, amelyre a jármű rákanyarodik."
   },
   {
@@ -118,6 +106,7 @@
       "Igen."
     ],
     "correct_answer": "Nem.",
+    "gyalogos": "Igen.",
     "explanation": "Tilos a másik jármű mellett elhaladni a gyalogátkelőhelyen és közvetlenül a \"zebra\" előtt. Autók és járművek"
   },
   {
@@ -128,6 +117,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "gyalogos": "Nem.",
     "explanation": "A kanyarodó főútvonalat elhagyó gépkocsi elsőbbségadásra kötelezett a gyalogosok részére."
   },
   {
@@ -138,6 +128,7 @@
       "Nem."
     ],
     "correct_answer": "Nem.",
+    "gyalogos": "Igen.",
     "explanation": "Nincs elsőbbségük a gyalogosoknak azon az úttesten, ahonnan a jármű megkezdi a kanyarodást."
   },
   {
@@ -148,6 +139,7 @@
       "Nem, mert a nyíl alakú zöld jelzésnél kanyarodik."
     ],
     "correct_answer": "Igen, a gyalogosok részére.",
+    "gyalogos": "Nem, mert a nyíl alakú zöld jelzésnél kanyarodik.",
     "explanation": "A nyíl alakú zöld jelzésnél is elsőbbségük van a gyalogosoknak a kanyarodó járművel szemben azon az úttesten, amelyikre a jármű kanyarodik."
   }
 ]
