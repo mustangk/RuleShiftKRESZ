@@ -3,63 +3,106 @@
     {
       "type": "message",
       "title": "Üdvözöljük a KRESZ Kutatásban!",
-      "content": "A következő blokkban hagyományos KRESZ szabályok szerint kell válaszolnia a kérdésekre. Nincs időkorlát. Kattintson a Tovább gombra a kezdéshez.",
+      "content": "A következő blokkban hagyományos KRESZ szabályok szerint kell válaszolnia a kérdésekre. Kattintson a Tovább gombra a kezdéshez.",
       "button_text": "Tovább"
     },
     {
       "type": "block",
-      "name": "Alapállapot (Baseline)",
+      "name": "Alapállapotó",
       "sources": [
         {
           "file": "data/egyenrangu-utkeresztezodesben-egyenesen.json",
-          "count": 10
+          "count": 2
+        },
+        {
+          "file": "data/egyenrangu-utkeresztezodesben-bekanyarodva.json",
+          "count": 2
+        },
+        {
+          "file": "data/keresztezodes-villamosforgalommal.json",
+          "count": 2
+        },
+        {
+          "file": "data/talalkozas-gyalogosokkal.json",
+          "count": 2
+        },
+        {
+          "file": "data/vedett-alarendelt-uton.json",
+          "count": 2
         }
       ],
       "correct_answer_field": "correct_answer",
-      "has_feedback": false,
-      "time_limit_ms": null
-    },
-    {
-      "type": "message",
-      "title": "FIGYELEM: Szabályváltozás! (Rule-Shift)",
-      "content": "Képzelje el, hogy a KRESZ megváltozott: Mostantól az egyenrangú útkereszteződésekben a BALRÓL érkezőnek is elsőbbséget kell adni! A következő gyakorló blokkban eszerint válaszoljon.",
-      "button_text": "Megértettem, kezdjük a gyakorlást"
-    },
-    {
-      "type": "block",
-      "name": "Gyakorló blokk",
-      "sources": [
-        {
-          "file": "data/egyenrangu-utkeresztezodesben-egyenesen.json",
-          "count": 5
-        }
-      ],
-      "correct_answer_field": "rule_shift_answer",
       "has_feedback": true,
       "time_limit_ms": null
     },
     {
       "type": "message",
-      "title": "Éles teszt következik",
-      "content": "Most kezdődik az éles teszt az ÚJ szabályok alapján. Figyelem: Ebben a blokkban 10 másodperce van válaszolni a kérdésekre, és nem kap visszajelzést a helyes válaszokról!",
-      "button_text": "Teszt indítása"
+      "title": "FIGYELEM: Szabályváltozás! (Rule-Shift)",
+      "content": "Képzelje el, hogy a KRESZ megváltozott: Mostantól az egyenrangú útkereszteződésekben a balról érkezőnek kell elsőbbséget adnia a jobbról érkezők helyett! A kérdések megválaszolására 20 másodpercet kap, a következő blokkban eszerint válaszoljon.",
+      "button_text": "Megértettem, kezdjük a gyakorlást"
     },
     {
       "type": "block",
-      "name": "Éles teszt (Magas tét)",
+      "name": "Balkéz blokk",
       "sources": [
         {
           "file": "data/egyenrangu-utkeresztezodesben-egyenesen.json",
-          "count": 5
+          "count": 4
         },
         {
           "file": "data/egyenrangu-utkeresztezodesben-bekanyarodva.json",
-          "count": 5
+          "count": 4
+        },
+        {
+          "file": "data/vedett-alarendelt-uton.json",
+          "count": 2
         }
       ],
-      "correct_answer_field": "rule_shift_answer",
+      "correct_answer_field": "balkez_szabaly",
       "has_feedback": false,
-      "time_limit_ms": 10000
+      "time_limit_ms": 20000
+    },
+    {
+      "type": "message",
+      "title": "FIGYELEM: Szabályváltozás! (Rule-Shift)",
+      "content": "Képzelje el, hogy a KRESZ megváltozott: Mostantól a gyalogosok és járművek szerepe felcserélődik, ahol korábban a gyalogosnak volt elsőbbsége, most a jármű haladhat el először, és fordítva! A kérdések megválaszolására 20 másodpercet kap, a következő blokkban eszerint válaszoljon.",
+      "button_text": "Megértettem, kezdjük a gyakorlást"
+    },
+    {
+      "type": "block",
+      "name": "Gyalogos blokk",
+      "sources": [
+        {
+          "file": "data/talalkozas-gyalogosokkal.json",
+          "count": 10
+        }
+      ],
+      "correct_answer_field": "gyalogos",
+      "has_feedback": false,
+      "time_limit_ms": 20000
+    },
+    {
+      "type": "message",
+      "title": "FIGYELEM: Szabályváltozás! (Rule-Shift)",
+      "content": "Képzelje el, hogy a KRESZ megváltozott: Mostantól a villamosokra is az autók szabályai vonatkoznak! A kérdések megválaszolására 20 másodpercet kap, a következő blokkban eszerint válaszoljon.",
+      "button_text": "Megértettem, kezdjük a gyakorlást"
+    },
+    {
+      "type": "block",
+      "name": "Villamos blokk",
+      "sources": [
+        {
+          "file": "data/keresztezodes-villamosforgalommal.json",
+          "count": 9
+        },
+        {
+          "file": "data/vasuti-atjaro-villamospalya.json",
+          "count": 1
+        }
+      ],
+      "correct_answer_field": "villamos",
+      "has_feedback": false,
+      "time_limit_ms": 20000
     },
     {
       "type": "message",
