@@ -7,6 +7,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Igen.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
   },
   {
@@ -15,9 +16,10 @@
     "options": [
       "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
       "Az \"A\" és \"B\" jelű járművek után.",
-      "Az \"A\" és \"B\" jelű járművek előtt."
+      "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
     ],
     "correct_answer": "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+    "balkez_szabaly": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön, végül B."
   },
   {
@@ -29,6 +31,7 @@
       "Az \"A\" jelű jármű."
     ],
     "correct_answer": "Az Ön kormánykerékkel ábrázolt járműve.",
+    "balkez_szabaly": "A \"B\" jelű jármű.",
     "explanation": "Áthaladási sorrend: első az Ön járműve, majd A, végül B."
   },
   {
@@ -36,10 +39,11 @@
     "image": "https://kreszteszt.net/resources/test-images/1211.jpg",
     "options": [
       "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
-      "Az \"A\" és \"B\" jelű járművek előtt.",
+      "Az \"A\" és \"B\" jelű járművek után.",
       "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
     ],
     "correct_answer": "Az \"A\" és \"B\" jelű járművek előtt.",
+    "balkez_szabaly": "Az \"A\" és \"B\" jelű járművek után.",
     "explanation": "Áthaladási sorrend: első az Ön járműve, majd A, végül B."
   },
   {
@@ -51,6 +55,7 @@
       "Az \"A\" jelű jármű."
     ],
     "correct_answer": "Az \"A\" jelű jármű.",
+    "balkez_szabaly": "Az \"A\" jelű jármű.",
     "explanation": "Áthaladási sorrend: első az A,utána B majd C végül az Ön járműve,"
   },
   {
@@ -61,6 +66,7 @@
       "Nincs."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Nincs.",
     "explanation": "Áthaladási sorrend: első a B jelű gyalogos majd A, végül Ön."
   },
   {
@@ -69,9 +75,10 @@
     "options": [
       "A, B, Ön.",
       "A, Ön, B.",
-      "Ön, A, B."
+      "B, Ön, A."
     ],
     "correct_answer": "A, Ön, B.",
+    "balkez_szabaly": "B, Ön, A.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön, végül B."
   },
   {
@@ -82,6 +89,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Nincs.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A, végül Ön."
   },
   {
@@ -92,6 +100,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Igen.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön, végül B."
   },
   {
@@ -122,9 +131,10 @@
     "options": [
       "B, Ön, A.",
       "Ön, B, A.",
-      "Ön, A, B."
+      "A, B, Ön."
     ],
     "correct_answer": "Ön, B, A.",
+    "balkez_szabaly": "A, B, Ön.",
     "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
   },
   {
@@ -135,6 +145,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Nincs.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
   },
   {
@@ -146,6 +157,7 @@
       "A \"B\" jelű jármű."
     ],
     "correct_answer": "Az \"A\" jelű jármű.",
+    "balkez_szabaly": "Az \"A\" jelű jármű.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön."
   },
   {
@@ -157,6 +169,7 @@
       "A \"B\" jelű jármű."
     ],
     "correct_answer": "A \"B\" jelű jármű.",
+    "balkez_szabaly": "Az Ön kormánykerékkel ábrázolt járműve.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A, végül Ön."
   },
   {
@@ -167,6 +180,7 @@
       "Nincs."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Nincs.",
     "explanation": ""
   },
   {
@@ -178,6 +192,7 @@
       "Az \"A\" és \"B\" jelű járművek előtt."
     ],
     "correct_answer": "Az \"A\" és \"B\" jelű járművek után.",
+    "balkez_szabaly": "Az \"A\" és \"B\" jelű járművek előtt.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A, végül Ön."
   },
   {
@@ -189,6 +204,7 @@
       "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
     ],
     "correct_answer": "Az \"A\" és \"B\" jelű járművek után.",
+    "balkez_szabaly": "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön."
   },
   {
@@ -197,9 +213,10 @@
     "options": [
       "Csak kölcsönös megegyezéssel lehet eldönteni.",
       "Az \"A\" a \"B\"és a \"C\" jelű járművek után.",
-      "Az \"A\" és \"B\" és \"C\" jelű járművek előtt."
+      "A \"C\" jelű jármű után"
     ],
     "correct_answer": "Az \"A\" a \"B\"és a \"C\" jelű járművek után.",
+    "balkez_szabaly": "A \"C\" jelű jármű után",
     "explanation": "Áthaladási sorrend: első a A,utána B majd C végül az Ön járműve,"
   },
   {
@@ -211,6 +228,7 @@
       "Az \"A\" és \"B\" jelű járművek után."
     ],
     "correct_answer": "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+    "balkez_szabaly": "Az \"A\" és \"B\" jelű járművek után.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön, végül B."
   },
   {
@@ -222,6 +240,7 @@
       "Az Ön kormánykerékkel ábrázolt járműve."
     ],
     "correct_answer": "A \"B\" jelű jármű.",
+    "balkez_szabaly": "Az \"A\" jelű jármű.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
   },
   {
@@ -232,6 +251,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Igen.",
     "explanation": "Áthaladási sorrend: első az A,utána B majd C végül az Ön járműve."
   },
   {
@@ -243,6 +263,7 @@
       "Az Ön kormánykerékkel ábrázolt járműve."
     ],
     "correct_answer": "A \"C\" jelű jármű.",
+    "balkez_szabaly": "A \"C\" jelű jármű.",
     "explanation": "Áthaladási sorrend: első a C,utána az Ön járműve, majd A, végül B."
   },
   {
@@ -253,6 +274,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Igen.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A, végül Ön."
   },
   {
@@ -264,6 +286,7 @@
       "Az \"A\" jelű jármű."
     ],
     "correct_answer": "A \"B\" jelű jármű.",
+    "balkez_szabaly": "A \"B\" jelű jármű.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A, végül Ön."
   },
   {
@@ -275,6 +298,7 @@
       "Az Ön kormánykerékkel ábrázolt járműve."
     ],
     "correct_answer": "A \"B\" jelű jármű.",
+    "balkez_szabaly": "Az Ön kormánykerékkel ábrázolt járműve.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
   },
   {
@@ -285,6 +309,7 @@
       "Nincs."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Nincs.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A, végül Ön."
   },
   {
@@ -296,6 +321,7 @@
       "A \"B\" jelű jármű."
     ],
     "correct_answer": "Az \"A\" jelű jármű.",
+    "balkez_szabaly": "A \"B\" jelű jármű.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön, végül B."
   },
   {
@@ -307,6 +333,7 @@
       "Csak a jobbról érkező részére."
     ],
     "correct_answer": "Csak a jobbról érkező részére.",
+    "balkez_szabaly": "Csak a balról érkező részére.",
     "explanation": "Jobbkéz-szabály!"
   },
   {
@@ -318,6 +345,7 @@
       "A \"B\" jelű jármű."
     ],
     "correct_answer": "Az \"A\" jelű jármű.",
+    "balkez_szabaly": "Az \"A\" jelű jármű.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön."
   },
   {
@@ -328,6 +356,7 @@
       "Ön."
     ],
     "correct_answer": "AZ \"A\" jelű jármű.",
+    "balkez_szabaly": "Ön.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön."
   },
   {
@@ -338,6 +367,7 @@
       "Másodikként."
     ],
     "correct_answer": "Másodikként.",
+    "balkez_szabaly": "Elsőként.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön."
   },
   {
@@ -349,6 +379,7 @@
       "Az \"A\" jelű jármű."
     ],
     "correct_answer": "Az \"C\" jelű jármű.",
+    "balkez_szabaly": "Az \"C\" jelű jármű.",
     "explanation": "Áthaladási sorrend: C,B,Ön,A."
   },
   {
@@ -360,6 +391,7 @@
       "Az \"A\" és \"B\" jelű járművek után."
     ],
     "correct_answer": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+    "balkez_szabaly": "Az \"A\" és \"B\" jelű járművek előtt.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
   },
   {
@@ -371,17 +403,19 @@
       "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
     ],
     "correct_answer": "Az \"A\" és \"B\" jelű járművek után.",
+    "balkez_szabaly": "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön."
   },
   {
     "question": "Mikor haladhat a kormánykerékkel abrázolt gépkocsijával az ábrán látható útkereszteződésben?",
     "image": "https://kreszteszt.net/resources/test-images/1213.jpg",
     "options": [
-      "Csak kölcsönös megegyezéssel lehet eldönteni.",
+      "Az \"C\" jelű jármű után, a \"A\" és \"B\" jelű járművek után.",
       "Az \"A\" és \"B\" és \"C\" jelű járművek előtt.",
       "Az \"C\" jelű jármű után, a \"A\" és \"B\" jelű járművek előtt."
     ],
     "correct_answer": "Az \"C\" jelű jármű után, a \"A\" és \"B\" jelű járművek előtt.",
+    "balkez_szabaly": "Az \"C\" jelű jármű után, a \"A\" és \"B\" jelű járművek után.",
     "explanation": "Áthaladási sorrend: első a C,utána az Ön járműve, majd B, végül A."
   },
   {
@@ -393,6 +427,7 @@
       "A \"B\" jelű jármű."
     ],
     "correct_answer": "A \"B\" jelű jármű.",
+    "balkez_szabaly": "Az \"A\" jelű jármű.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
   },
   {
@@ -404,6 +439,7 @@
       "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt."
     ],
     "correct_answer": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+    "balkez_szabaly": "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
   },
   {
@@ -414,6 +450,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Igen.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
   },
   {
@@ -425,6 +462,7 @@
       "A \"C\" jelű jármű."
     ],
     "correct_answer": "A \"C\" jelű jármű.",
+    "balkez_szabaly": "A \"C\" jelű jármű.",
     "explanation": "Áthaladási sorrend: első a C,utána az Ön járműve, majd B, végül A."
   },
   {
@@ -436,6 +474,7 @@
       "Az \"A\" és \"B\" jelű járművek után."
     ],
     "correct_answer": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
+    "balkez_szabaly": "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd Ön, végül A."
   },
   {
@@ -446,6 +485,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Igen.",
     "explanation": "Áthaladási sorrend: C,B,Ön,A."
   },
   {
@@ -457,6 +497,7 @@
       "A \"B\" jelű gyalogos."
     ],
     "correct_answer": "A \"B\" jelű gyalogos.",
+    "balkez_szabaly": "Az Ön kormánykerékkel ábrázolt járműve.",
     "explanation": "Áthaladási sorrend: első a B jelű gyalogos majd A, végül Ön."
   },
   {
@@ -467,6 +508,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Igen.",
     "explanation": "Áthaladási sorrend: első a C,utána az Ön járműve, majd B, végül A."
   },
   {
@@ -478,6 +520,7 @@
       "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
     ],
     "correct_answer": "Az \"A\" és \"B\" jelű járművek után.",
+    "balkez_szabaly": "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A, végül Ön."
   },
   {
@@ -488,6 +531,7 @@
       "Igen."
     ],
     "correct_answer": "Igen.",
+    "balkez_szabaly": "Igen.",
     "explanation": "Áthaladási sorrend: első a C,utána az Ön járműve, majd A, végül B."
   },
   {
@@ -498,6 +542,7 @@
       "Nincs."
     ],
     "correct_answer": "Nincs.",
+    "balkez_szabaly": "Igen.",
     "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
   },
   {
@@ -509,6 +554,7 @@
       "A \"B\" jelű jármű."
     ],
     "correct_answer": "A \"B\" jelű jármű.",
+    "balkez_szabaly": "Az Ön kormánykerékkel ábrázolt járműve.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A, végül Ön."
   },
   {
@@ -517,9 +563,10 @@
     "options": [
       "Ön, A, B.",
       "B, Ön, A.",
-      "Ön, B, A."
+      "B, A, Ön."
     ],
     "correct_answer": "Ön, A, B.",
+    "balkez_szabaly": "B, A, Ön.",
     "explanation": "Áthaladási sorrend: első az Ön járműve, majd A, végül B."
   },
   {
@@ -531,6 +578,7 @@
       "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
     ],
     "correct_answer": "Az \"A\" és \"B\" jelű járművek előtt.",
+    "balkez_szabaly": "Az \"A\" és \"B\" jelű járművek után.",
     "explanation": "Áthaladási sorrend: első az Ön járműve, majd B, végül A."
   },
   {
@@ -541,6 +589,7 @@
       "Nincs."
     ],
     "correct_answer": "Nincs.",
+    "balkez_szabaly": "Igen.",
     "explanation": "Áthaladási sorrend: első az Ön járműve, majd A, végül B."
   },
   {
@@ -552,6 +601,7 @@
       "Az \"A\" jelű jármű."
     ],
     "correct_answer": "Az \"A\" jelű jármű.",
+    "balkez_szabaly": "Az \"A\" jelű jármű.",
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd Ön, végül B."
   },
   {
@@ -563,6 +613,7 @@
       "Elsőként."
     ],
     "correct_answer": "Utolsóként.",
+    "balkez_szabaly": "Másodikként.",
     "explanation": "Áthaladási sorrend: első a B jelű gyalogos majd A, végül Ön."
   },
   {
@@ -570,10 +621,11 @@
     "image": "https://kreszteszt.net/resources/test-images/1214.jpg",
     "options": [
       "Csak kölcsönös megegyezéssel lehet eldönteni.",
-      "Az \"A\" és \"B\" és C\" jelű járművek előtt.",
+      "Az \"C\" jelű jármű után, a \"B\" és \"A\" jelű járművek után",
       "Az \"C\" jelű jármű után, a \"A\" és \"B\" jelű járművek előtt."
     ],
     "correct_answer": "Az \"C\" jelű jármű után, a \"A\" és \"B\" jelű járművek előtt.",
+    "balkez_szabaly": "Az \"C\" jelű jármű után, a \"B\" és \"A\" jelű járművek után",
     "explanation": "Áthaladási sorrend: első a C,utána az Ön járműve, majd A, végül B."
   }
 ]
