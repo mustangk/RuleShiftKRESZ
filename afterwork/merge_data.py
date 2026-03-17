@@ -12,11 +12,13 @@ def merge_json_to_csv(input_folder, output_filename):
         "jogositvany_kora", 
         "experiment_start_time",
         "block_name", 
+        "source_file",
+        "question_id",
         "question_text", 
-        "active_rule_name",           # UPDATED: Tells you which rule was active (e.g., 'left_hand_rule')
+        "active_rule_name",
         "user_answer", 
         "expected_answer", 
-        "original_baseline_answer",   # UPDATED: The old habit
+        "original_baseline_answer", 
         "is_correct", 
         "is_perseveration_error", 
         "reaction_time_ms", 
