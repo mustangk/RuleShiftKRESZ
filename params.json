@@ -8,28 +8,13 @@
     },
     {
       "type": "block",
-      "name": "Alapállapotó",
+      "name": "Alapállapot",
       "sources": [
-        {
-          "file": "data/egyenrangu-utkeresztezodesben-egyenesen.json",
-          "count": 2
-        },
-        {
-          "file": "data/egyenrangu-utkeresztezodesben-bekanyarodva.json",
-          "count": 2
-        },
-        {
-          "file": "data/keresztezodes-villamosforgalommal.json",
-          "count": 2
-        },
-        {
-          "file": "data/talalkozas-gyalogosokkal.json",
-          "count": 2
-        },
-        {
-          "file": "data/vedett-alarendelt-uton.json",
-          "count": 2
-        }
+        { "file": "data/egyenrangu-utkeresztezodesben-egyenesen.json", "count": 2 },
+        { "file": "data/egyenrangu-utkeresztezodesben-bekanyarodva.json", "count": 2 },
+        { "file": "data/keresztezodes-villamosforgalommal.json", "count": 2 },
+        { "file": "data/talalkozas-gyalogosokkal.json", "count": 2 },
+        { "file": "data/vedett-alarendelt-uton.json", "count": 2 }
       ],
       "correct_answer_field": "correct_answer",
       "has_feedback": true,
@@ -45,18 +30,9 @@
       "type": "block",
       "name": "Balkéz blokk",
       "sources": [
-        {
-          "file": "data/egyenrangu-utkeresztezodesben-egyenesen.json",
-          "count": 4
-        },
-        {
-          "file": "data/egyenrangu-utkeresztezodesben-bekanyarodva.json",
-          "count": 4
-        },
-        {
-          "file": "data/vedett-alarendelt-uton.json",
-          "count": 2
-        }
+        { "file": "data/egyenrangu-utkeresztezodesben-egyenesen.json", "count": 4 },
+        { "file": "data/egyenrangu-utkeresztezodesben-bekanyarodva.json", "count": 4 },
+        { "file": "data/vedett-alarendelt-uton.json", "count": 2 }
       ],
       "correct_answer_field": "balkez_szabaly",
       "has_feedback": false,
@@ -72,10 +48,7 @@
       "type": "block",
       "name": "Gyalogos blokk",
       "sources": [
-        {
-          "file": "data/talalkozas-gyalogosokkal.json",
-          "count": 10
-        }
+        { "file": "data/talalkozas-gyalogosokkal.json", "count": 10 }
       ],
       "correct_answer_field": "gyalogos",
       "has_feedback": false,
@@ -91,14 +64,8 @@
       "type": "block",
       "name": "Villamos blokk",
       "sources": [
-        {
-          "file": "data/keresztezodes-villamosforgalommal.json",
-          "count": 9
-        },
-        {
-          "file": "data/vasuti-atjaro-villamospalya.json",
-          "count": 1
-        }
+        { "file": "data/keresztezodes-villamosforgalommal.json", "count": 9 },
+        { "file": "data/vasuti-atjaro-villamospalya.json", "count": 1 }
       ],
       "correct_answer_field": "villamos",
       "has_feedback": false,
