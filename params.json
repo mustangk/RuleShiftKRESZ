@@ -64,8 +64,7 @@
       "type": "block",
       "name": "Villamos blokk",
       "sources": [
-        { "file": "data/keresztezodes-villamosforgalommal.json", "count": 9 },
-        { "file": "data/vasuti-atjaro-villamospalya.json", "count": 1 }
+        { "file": "data/keresztezodes-villamosforgalommal.json", "count": 10 }
       ],
       "correct_answer_field": "villamos",
       "has_feedback": false,
