@@ -191,7 +191,7 @@
     "image": "https://kreszteszt.net/resources/test-images/1509.jpg",
     "options": [
       "Utolsóként.",
-      "harmadikként.",
+      "Harmadikként.",
       "Másodikként."
     ],
     "correct_answer": "Utolsóként.",
