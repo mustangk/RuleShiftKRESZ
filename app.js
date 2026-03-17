@@ -127,6 +127,13 @@ $(document).ready(function() {
             // Fetch all files simultaneously
             let fetchPromises = blockData.sources.map(source => 
                 fetch(source.file).then(res => res.json()).then(data => {
+                    
+                    // NEW: Inject source_file and question_id BEFORE shuffling
+                    data.forEach((q, idx) => {
+                        q.source_file = source.file;
+                        q.question_id = idx + 1; // Starts from 1
+                    });
+
                     shuffleArray(data); // Shuffle the bank
                     return data.slice(0, source.count); // Take only what we need
                 })
@@ -259,8 +266,11 @@ $(document).ready(function() {
             isPerseveration = true;
         }
 
+        // NEW: We are now saving the source_file and question_id into the log!
         experimentData.logs.push({
             block_name: currentBlockData.name,
+            source_file: questionObj.source_file,
+            question_id: questionObj.question_id,
             question_text: questionObj.question,
             active_rule_name: expectedField,
             user_answer: selectedOption,
@@ -333,7 +343,6 @@ $(document).ready(function() {
         }
     }
 
-// Export Data as JSON file
 // Export Data as JSON file
     function downloadData() {
         const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(experimentData, null, 2));
