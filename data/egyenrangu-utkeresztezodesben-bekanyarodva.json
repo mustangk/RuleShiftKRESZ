@@ -96,19 +96,6 @@
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A, végül Ön."
   },
   {
-    "question": "Hányadikként haladhat át az útkereszteződésben a kormánykerékkel ábrázolt gépkocsijával?",
-    "image": "https://kreszteszt.net/resources/test-images/1313.jpg",
-    "options": [
-      "Elsőként.",
-      "Másodikként.",
-      "Utolsóként."
-    ],
-    "correct_answer": "Utolsóként.",
-    "balkez_szabaly": "Utolsóként.",
-    "gyalogos": "Másodikként.",
-    "explanation": "Áthaladási sorrend: B, A, Ön."
-  },
-  {
     "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
     "image": "https://kreszteszt.net/resources/test-images/1303.jpg",
     "options": [
@@ -436,19 +423,6 @@
     "explanation": "Áthaladási sorrend: első az A jelű jármű, majd B, végül Ön."
   },
   {
-    "question": "Ki haladhat tovább elsőként?",
-    "image": "https://kreszteszt.net/resources/test-images/1313.jpg",
-    "options": [
-      "Az \"A\" jelű jármű.",
-      "Az Ön kormánykerékkel ábrázolt járműve.",
-      "A gyalogos."
-    ],
-    "correct_answer": "A gyalogos.",
-    "balkez_szabaly": "A gyalogos.",
-    "gyalogos": "Az \"A\" jelű jármű.",
-    "explanation": "Áthaladási sorrend: B, A, Ön."
-  },
-  {
     "question": "Melyik jármű haladhat tovább elsőként?",
     "image": "https://kreszteszt.net/resources/test-images/1315.jpg",
     "options": [
@@ -528,17 +502,6 @@
     "correct_answer": "Igen.",
     "balkez_szabaly": "Igen",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A, végül Ön."
-  },
-  {
-    "question": "Melyik jármű haladhat tovább elsőként?",
-    "image": "https://kreszteszt.net/resources/test-images/1309.jpg",
-    "options": [
-      "Az Ön kormánykerékkel ábrázolt járműve.",
-      "Az \"A\" jelű jármű."
-    ],
-    "correct_answer": "Az \"A\" jelű jármű.",
-    "gyalogos": "Az \"A\" jelű jármű.",
-    "explanation": ""
   },
   {
     "question": "Ön a kormánykerékkel ábrázolt gépkocsit vezeti. Van-e elsőbbségadási kötelezettsége?",
