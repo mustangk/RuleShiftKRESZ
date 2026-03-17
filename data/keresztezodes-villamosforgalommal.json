@@ -136,7 +136,7 @@
     ],
     "correct_answer": "A \"B\" jelű jármű után, az \"A\" jelű járművel egyidejűleg.",
     "explanation": "Áthaladási sorrend: első a B jelű jármű, majd A és Ön egyszerre. Kereszteződés szabályai",
-    "villamos": "Az "A\" jelű járművel egyidejűleg, A \"B\" jelű jármű után."
+    "villamos": "Az \"A\" jelű járművel egyidejűleg, A \"B\" jelű jármű után."
   },
   {
     "question": "Melyik jármű haladhat tovább elsőként?",
