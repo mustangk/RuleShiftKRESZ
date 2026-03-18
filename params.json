@@ -24,7 +24,7 @@
       "type": "message",
       "title": "FIGYELEM: Szabályváltozás! (Rule-Shift)",
       "content": "Képzelje el, hogy a KRESZ megváltozott: Mostantól az egyenrangú útkereszteződésekben a balról érkezőnek kell elsőbbséget adnia a jobbról érkezők helyett! A kérdések megválaszolására 20 másodpercet kap, a következő blokkban eszerint válaszoljon.",
-      "button_text": "Megértettem, kezdjük a gyakorlást"
+      "button_text": "Tovább"
     },
     {
       "type": "block",
@@ -42,7 +42,7 @@
       "type": "message",
       "title": "FIGYELEM: Szabályváltozás! (Rule-Shift)",
       "content": "Képzelje el, hogy a KRESZ megváltozott: Mostantól a gyalogosok és járművek szerepe felcserélődik, ahol korábban a gyalogosnak volt elsőbbsége, most a jármű haladhat el először, és fordítva! A kérdések megválaszolására 20 másodpercet kap, a következő blokkban eszerint válaszoljon.",
-      "button_text": "Megértettem, kezdjük a gyakorlást"
+      "button_text": "Tovább"
     },
     {
       "type": "block",
@@ -58,7 +58,7 @@
       "type": "message",
       "title": "FIGYELEM: Szabályváltozás! (Rule-Shift)",
       "content": "Képzelje el, hogy a KRESZ megváltozott: Mostantól a villamosokra is az autók szabályai vonatkoznak! A kérdések megválaszolására 20 másodpercet kap, a következő blokkban eszerint válaszoljon.",
-      "button_text": "Megértettem, kezdjük a gyakorlást"
+      "button_text": "Tovább"
     },
     {
       "type": "block",
