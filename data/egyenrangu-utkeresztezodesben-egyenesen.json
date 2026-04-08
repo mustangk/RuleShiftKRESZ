@@ -38,7 +38,7 @@
     "question": "Mikor haladhat a kormánykerékkel abrázolt gépkocsijával az ábrán látható útkereszteződésben?",
     "image": "https://kreszteszt.net/resources/test-images/1211.jpg",
     "options": [
-      "Az \"A\" jelű jármű után, a \"B\" jelű jármű előtt.",
+      "Az \"A\" és \"B\" jelű járművek előtt.",
       "Az \"A\" és \"B\" jelű járművek után.",
       "A \"B\" jelű jármű után, az \"A\" jelű jármű előtt."
     ],
